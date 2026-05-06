@@ -1,6 +1,6 @@
 # Exercise 1: Electrical Circuits 
 
-The first exercise took place on the 30th April 2026 and was about Electrical Circuits. I worked on these tasks together with Dena Boveirimonji. All images for this exercise can be found in the folder [ex01_images](../images/ex01_images) as well.
+The first exercise took place on the 30th April 2026 and was about Electrical Circuits. I worked on these tasks together with Dena Boveirimonji. All images for this exercise can be found in the folder [ex01_images](../images/ex01_images) as well. Videos are uploaded in the [video](../videos) folder
 
 <img src="../images/ex01_images/01_componentsOverview.jpeg" alt="Components for Task 1" width="500"/>
 
@@ -18,11 +18,11 @@ It did not work immediately. We had to eliminate some errors. For example, at fi
 
 <img src="../images/ex01_images/03_task1_1_builtCircuit.jpeg" alt="Built circuit of Task 1.1" height="400"/>
 
-As a follow-up, we were tasked to measure the voltage for multiple resistors with different Ohm values (220, 1000, 4700) and the voltage of the LED. To measure the voltage, we used a multimeter and placed the rods on each "leg" of the resistor / LED, so we were connected in parallel to the resistor / LED (see photo below). At the beginning, we had some difficulties measuring a plausible voltage value. For example, at times we measured near 0 V because we had placed the rods of the multimeter slightly off-place or did not have stable contact with the anode and cathode of the LED. 
+As a follow-up, we were tasked to measure the voltage for multiple resistors with different Ohm values (220, 1000, 4700) and the voltage of the LED. To measure the voltage, we used a multimeter and placed the rods on each "leg" of the resistor / LED, so we were connected in parallel to the resistor / LED (see photo below). At the beginning, we had some difficulties measuring a plausible voltage value. For example, at times we measured near 0 V because we had placed the rods of the multimeter slightly off-place or did not have stable contact with the anode and cathode of the LED. These measurements made no sense because we set the voltage to 5V at the beginning
 
-(pic4)
+<img src="../images/ex01_images/04_task1_1_measuringVoltage.jpeg" alt="Measuring voltage" height="400"/>
 
-In the end, the voltages we had measured were:
+After some tries, we could measure more plausible values:
 
 | R<sub>1</sub> [Ohm] | Measured V<sub>1</sub> [V] | Measured V<sub>LED</sub> [V] |
 | :-----------------: | :------------------------: | :--------------------------: |
@@ -36,21 +36,23 @@ We observed that the voltage at the resistor V<sub>1</sub> was increasing the hi
 
 For task 1.2, we had to build a 2-position switch into our circuit according to this schematic: 
 
-(pic5) 
+<img src="../images/ex01_images/05_task1_2_schematic.png" alt="Schematic of task 1.2" height="200"/>
 
 At first, we simply added the switch to our existing circuit, but when we tried to operate the switch, the LED did not change at all. We then realized that we accidentally added the switch in parallel to the circuit. Since the electricity is choosing the path with the least resistance, it did not go through the switch but our existing path, so the switch did not control the flow. We removed one orange cable to remove the parallel connection and then it was possible to turn the LED on and off via the switch (see images below). 
 
-(pic6) (pic7) 
+<img src="../images/ex01_images/06_task1_2_light_on_removed_orange_cable.jpeg" alt="Circuit and removed orange cable" height="200"/> <img src="../images/ex01_images/07_task1_2_light_off.jpeg" alt="LED switched off" height="200"/>
 
 We also tried connecting the switch in the opposite direction by rotating the switch by 180 degrees. It did not change its function. The LED could still be controlled by the switch, which means that the switch, unlike the LED, has no polarity and works the same regardless of orientation. 
 
 ### Task 1.3 Dimmable LED Circuit
 
-(pic8) 
+<img src="../images/ex01_images/08_task1_3_schematic.png" alt="Schematic of task 1.3" height="200"/>
 
 For this task, we had to add a potentiometer to our circuit according to the schematic above. We eventually realized that the middle pin of the potentiometer should lead to the LED as it is the variable output. Meanwhile, the outer two pins go into GND and VCC respectively. After some trial and error, we successfully integrated it into our circuit (see image and video below). 
 
-(pic9) (vid1) 
+<img src="../images/ex01_images/09_task1_3_circuit_with_potentiometer.jpeg" alt="Circuit with potentiometer" height="200"/>
+
+[Video](../videos/ex01_task1_3_video_potentiometer.mp4) (Video needs to be downloaded to be viewed...)
 
 We could immediately observe the behavior of the LED. When turning the potentiometer fully on (turning it multiple times clockwise), the brightness of the light increases. Turning it anticlockwise decreases the brightness of the LED. 
 
