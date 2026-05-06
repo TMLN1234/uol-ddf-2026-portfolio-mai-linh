@@ -68,5 +68,41 @@ So overall, we witnessed the ability of the potentiometer as a semiconductor. We
 
 ## Task 2 Transistor Switch Circuit
 ### Task 2.1. Switchable LED Strip
+(image10) (image11) 
+
+In this task we were using a NPN MOSFET IRLZ44N transistor to turn an LED strip on and off.  
+
+We built the circuit according to the schematic above. 
+
+(image 12) (video2) 
+
+With the switch we were controlling the 5V circuit, specifically the Gate-Source-voltage of the MOSFET. In this case, the MOSFET acts as an electronic switch. When there is voltage on the gate it allows current to flow from drain to source so the LED strip turns on. If there is no voltage on the gate, the current flow stops and the LED turns off. 
+So in the end, the switch controls the gate voltage of the MOSFET and not directly the LED. 
+
 ### Task 2.2 Dimmable LED Strip
 
+(image13) 
+
+For the last task a Pulse Width Modulation (PWM) generator was added to our circuit according to the schematic above.  
+
+After we followed the instructions of the task and setting the frequency f to 90 Hz, our circuit looked like this: 
+
+(image 14) 
+
+#### A) Adjusting the Duty Cycle 
+
+(image15) 
+
+We were tasked to change the Duty Cycle to different percentages ranging from 2% to 100% (see image above). We observed that the brightness of the LED strip increased the higher the duty cycle was. When the duty cycle is decreased the LED strip’s brightness loses intensity. 
+
+What is happening is that the duty cycle percentage determines the ratio of HIGH and LOW signal within one time period. So, at D = 50%, only half of one time period is set to HIGH, while at D = 100% the LED is at full brightness because the whole time period is set to HIGH. Our human eyes perceive this fast switching within a time period as dimming and brightening of the LED. 
+
+Compared to the dimmable LED circuit in task 1.3, the PWM keeps the voltage constant and only controls the brightness via the duty cycles. Meanwhile, the previous dimmable LED circuit achieved dimming/brightening via manipulating the resistance and the voltage. 
+
+#### B) Adjusting the Switching Frequency 
+
+For part B, the duty cycle was fixed at 50%. Now the frequency f was changed as seen in the following short videos: 
+
+(video3) (video4) (video5) (video6) 
+
+Overall, we observed that, at lower frequencies (f = 5 Hz) the LED was flickering slower. With higher frequency, the LED was flickering faster and was barely visible at around f = 45 Hz. At f = 100 Hz the LED appeared to be on continuously because our human eyes cannot perceive the fast changes anymore. But overall, the brightness intensity remained constant. 
