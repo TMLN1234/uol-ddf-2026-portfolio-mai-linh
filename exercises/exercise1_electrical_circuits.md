@@ -56,7 +56,7 @@ We could immediately observe the behavior of the LED. When turning the potentiom
 
 Then we used the multimeter to measure the voltages at the LED and the potentiometer at different positions. The values are in the table below: 
 
-| Position               | V<sub>LED</sub> [V] | V<sub>2</sub> |
+| Position               | V<sub>LED</sub> [V] | V<sub>2</sub> [V] |
 | :-----------------: | :------------------------: | :-----------------: |
 | a) full brightness | 2.4 | 3.0 |
 | b) dimmed          | 2.2 | 2.1 |
@@ -102,4 +102,4 @@ For part B, the duty cycle was fixed at 50%. Now the frequency f was changed as 
 
 ![Video](../videos/ex01_task2_2_frequencies.gif)
 
-Overall, we observed that, at lower frequencies (f = 5 Hz) the LED was flickering slower. With higher frequency, the LED was flickering faster and was barely visible at around f = 45 Hz. At f = 100 Hz the LED appeared to be on continuously because our human eyes cannot perceive the fast changes anymore. But overall, the brightness intensity remained constant. 
+Overall, we observed that, at lower frequencies (f = 5 Hz) the LED was flickering slower. With higher frequency, the LED was flickering faster and was barely noticeable at around f = 45 Hz. At f = 100 Hz the LED appeared to be on continuously because our human eyes cannot perceive the fast changes anymore.
