@@ -50,9 +50,7 @@ We also tried connecting the switch in the opposite direction by rotating the sw
 
 For this task, we had to add a potentiometer to our circuit according to the schematic above. We eventually realized that the middle pin of the potentiometer should lead to the LED as it is the variable output. Meanwhile, the outer two pins go into GND and VCC respectively. After some trial and error, we successfully integrated it into our circuit (see image and video below). 
 
-<img src="../images/ex01_images/09_task1_3_circuit_with_potentiometer.jpeg" alt="Circuit with potentiometer" height="200"/>
-
-[Video](../videos/ex01_task1_3_video_potentiometer.mp4) (Video needs to be downloaded to be viewed...)
+<img src="../images/ex01_images/09_task1_3_circuit_with_potentiometer.jpeg" alt="Circuit with potentiometer" height="200"/> ![Video](../videos/ex01_task1_3_video_potentiometer.gif)
 
 We could immediately observe the behavior of the LED. When turning the potentiometer fully on (turning it multiple times clockwise), the brightness of the light increases. Turning it anticlockwise decreases the brightness of the LED. 
 
