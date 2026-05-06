@@ -18,7 +18,7 @@ It did not work immediately. We had to eliminate some errors. For example, at fi
 
 <img src="../images/ex01_images/03_task1_1_builtCircuit.jpeg" alt="Built circuit of Task 1.1" height="400"/>
 
-As a follow-up, we were tasked to measure the voltage for multiple resistors with different Ohm values (220, 1000, 4700) and the voltage of the LED. To measure the voltage, we used a multimeter and placed the rods on each "leg" of the resistor / LED, so we were connected in parallel to the resistor / LED (see photo below). At the beginning, we had some difficulties measuring a plausible voltage value. For example, at times we measured near 0 V because we had placed the rods of the multimeter slightly off-place or did not have stable contact with the anode and cathode of the LED. These measurements made no sense because we set the voltage to 5V at the beginning
+As a follow-up, we were tasked to measure the voltage for multiple resistors with different Ohm values (220, 1000, 4700) and the voltage of the LED. To measure the voltage, we used a multimeter and placed the rods on each "leg" of the resistor / LED, so we were connected in parallel to the resistor / LED (see photo below). At the beginning, we had some difficulties measuring a plausible voltage value. For example, at times we measured near 0 V because we had placed the rods of the multimeter slightly off-place or did not have stable contact with the anode and cathode of the LED. These measurements made no sense because we set the voltage to 5V at the beginning.
 
 <img src="../images/ex01_images/04_task1_1_measuringVoltage.jpeg" alt="Measuring voltage" height="400"/>
 
@@ -68,30 +68,27 @@ So overall, we witnessed the ability of the potentiometer as a semiconductor. We
 
 ## Task 2 Transistor Switch Circuit
 ### Task 2.1. Switchable LED Strip
-(image10) (image11) 
 
-In this task we were using a NPN MOSFET IRLZ44N transistor to turn an LED strip on and off.  
+<img src="../images/ex01_images/10_task2_1_transistor.png" alt="NPN MOSFET" height="200"/> <img src="../images/ex01_images/11_task2_1_schematic.png" alt="Schematic of task 2.1" height="200"/>
 
-We built the circuit according to the schematic above. 
+In this task we were using a NPN MOSFET IRLZ44N transistor to turn an LED strip on and off. We built the circuit according to the schematic above. 
 
-(image 12) (video2) 
+<img src="../images/ex01_images/12_task2_1_circuit_transistor_switch.jpeg" alt="Built circuit of task 2.1" height="200"/> ![Video](../videos/ex01_task2_1_switch_transistor.gif)
 
 With the switch we were controlling the 5V circuit, specifically the Gate-Source-voltage of the MOSFET. In this case, the MOSFET acts as an electronic switch. When there is voltage on the gate it allows current to flow from drain to source so the LED strip turns on. If there is no voltage on the gate, the current flow stops and the LED turns off. 
 So in the end, the switch controls the gate voltage of the MOSFET and not directly the LED. 
 
 ### Task 2.2 Dimmable LED Strip
 
-(image13) 
+<img src="../images/ex01_images/13_task2_2_schematic.png" alt="Schematic of task 2.2" height="200"/>
 
-For the last task a Pulse Width Modulation (PWM) generator was added to our circuit according to the schematic above.  
+For the last task a Pulse Width Modulation (PWM) generator was added to our circuit according to the schematic above. After we followed the instructions of the task and setting the frequency f to 90 Hz, our circuit looked like this: 
 
-After we followed the instructions of the task and setting the frequency f to 90 Hz, our circuit looked like this: 
-
-(image 14) 
+<img src="../images/ex01_images/14_task2_2_circuit_generator.jpeg" alt="Built circuit of task 2.2" height="400"/>
 
 #### A) Adjusting the Duty Cycle 
 
-(image15) 
+<img src="../images/ex01_images/15_task2_2_A_different_duty_cycles.png" alt="LED at different duty cycle percentages" height="400"/>
 
 We were tasked to change the Duty Cycle to different percentages ranging from 2% to 100% (see image above). We observed that the brightness of the LED strip increased the higher the duty cycle was. When the duty cycle is decreased the LED strip’s brightness loses intensity. 
 
@@ -103,6 +100,6 @@ Compared to the dimmable LED circuit in task 1.3, the PWM keeps the voltage cons
 
 For part B, the duty cycle was fixed at 50%. Now the frequency f was changed as seen in the following short videos: 
 
-(video3) (video4) (video5) (video6) 
+![Video](../videos/ex01_task2_2_frequencies.gif)
 
 Overall, we observed that, at lower frequencies (f = 5 Hz) the LED was flickering slower. With higher frequency, the LED was flickering faster and was barely visible at around f = 45 Hz. At f = 100 Hz the LED appeared to be on continuously because our human eyes cannot perceive the fast changes anymore. But overall, the brightness intensity remained constant. 
