@@ -11,11 +11,9 @@ For the first sub-circuit, we were adding buzzer and resistor to the circuit. At
 
 <img src="../images/ex02_images/01_componentsOverview_subCircuit1.jpeg" alt="Built sub-circuit 1" width="500"/>
 
-Afterwards, we tested some different settings for the duration of delays and sequences of HIGH/LOW signals to create different buzzer-patterns. We figured out, that the constant “howManyRings” controls how often the buzzer rings during one launch because it is used as a counter in a for-loop. Meanwhile, a combination of the methods “digitalWrite(buzzerPin, HIGH)” and "delay(2000)” determines how long one ringing lasts. 2000 in this case describes a ringing lasting 2000 milliseconds (meaning 2 seconds). On the other hand, a combination of “digitalWrite(buzzerPin, LOW)” and a delay-command declares how long a break between the ringing should last. Within the same for-loop multiple combinations of digitalWrite- and delay-commands with varying lengths of delays can be used to create a sequence for the ringing which will be repeated depending on the number set in “howManyRings”. Examples of our testings with different settings are shown in the following video: 
+Afterwards, we tested some different settings for the duration of delays and sequences of HIGH/LOW signals to create different buzzer-patterns. We figured out, that the constant “howManyRings” controls how often the buzzer rings during one launch because it is used as a counter in a for-loop. Meanwhile, a combination of the methods “digitalWrite(buzzerPin, HIGH)” and "delay(2000)” determines how long one ringing lasts. 2000 in this case describes a ringing lasting 2000 milliseconds (meaning 2 seconds). On the other hand, a combination of “digitalWrite(buzzerPin, LOW)” and a delay-command declares how long a break between the ringing should last. Within the same for-loop multiple combinations of digitalWrite- and delay-commands with varying lengths of delays can be used to create a sequence for the ringing which will be repeated depending on the number set in “howManyRings”. Examples of our testings with different settings are shown in the following video: [ex02_buzzer_ringing_patterns.mp4](../videos/ex02_buzzer_ringing_patterns.mp4)
 
-(video1) 
-
-The video shows the original buzzing settings & second setting where howManyRings = 3, ringing lasts 2 seconds with 1 second breaks in between each iteration.
+The video shows the first buzzing settings & second setting where howManyRings = 3, ringing lasts 2 seconds with 1 second breaks in between each iteration.
 
 ### Sub-circuit 2 - Connecting the LCD screen
 
@@ -75,6 +73,6 @@ Next we added an LED to the circuit and made it blink synchronically to the buzz
 
 We added a blue button and connected it to pin 9 which acts as a snooze button to stop the ringing for 10 seconds. When snooze is active a countdown is displayed on the LCD screen as well to see the remaining time until the alarm starts again (see video for demonstration). 
 
-(video2)
+[Video: ex02_custom_snooze.mp4](../videos/ex02_custom_snooze.mp4)
 
 ### Melody on buzzer
