@@ -13,4 +13,4 @@ The portfolio entries for submission are in the [exercise](/exercises) folder as
 
 The images and videos used in the submission can be found in the [images](/images) and [videos](/videos) folders respectively. Videos can not be viewed directly and need to be downloaded first.
 
-Last update: 19.05.2026
+Last update: 20.05.2026
