@@ -55,7 +55,7 @@ Each button has each own functionality upon pressing the button:
 
 ## Customized alarm clock
 
-Dena and I added some more functionalities to the alarm clock such as a snooze button, decreasing minute button, LED blinking and a custom buzzer pattern. The full code for our custom alarm clock can be viewed in LINK. 
+Dena and I added some more functionalities to the alarm clock such as a snooze button, decreasing minute button, LED blinking and a custom buzzer pattern. The full code for our custom alarm clock can be viewed in the folder [files](../files/DDF_Arduino101_AlarmClock_modified.ino). 
 
 <img src="../images/ex02_images/10_custom_fullCircuit.jpeg" alt="Full custom circuit" height="350"/>
 
@@ -78,6 +78,8 @@ We added a blue button and connected it to pin 9 which acts as a snooze button t
 ### Buzzer pattern
 
 At first we wanted to create a melody for the buzzer with different tones but realized that our JOY-IT KY-012 buzzer is incapable of creating different pitches since it was an active buzzer. So instead we shifted our focus on creating a simple alarm sound pattern.
+
 When we tried to customize the buzzing pattern we came across some problems. During our implementation of the snooze function the buzzing was simply one long beep so everything was fine by then. Now that we tried to make a pattern with several beeps and breaks in between we could not simply put a delay-method after the digitalWrite-methods anymore while still having the pattern go off repeatedly until the blue or white button were pressed.
-At first we tried to put the buzzing pattern in a while-loop and add a checking for the stopping condition within the loop but that version failed. Once the alarm went off the buttons did not react to any input. We eventually figured out that by using a while-loop and delay-methods the programm is stuck so the buttons could not be read to stop the buzzing. Our solution was to use millis() to count the milliseconds. By checking the elapsed time and setting a cycle time we could control the buzzer pattern without blocking the program so button inputs could still be read.
+
+At first we tried to put the buzzing pattern in a while-loop and add a checking for the stopping condition within the loop but that version failed. Once the alarm went off the buttons did not react to any input. We eventually figured out that by using a while-loop and delay-methods the programm is stuck so the buttons could not be read to stop the buzzing. Our solution was to use millis() to count the milliseconds. By checking the elapsed time and setting a cycle time we could control the buzzer pattern without blocking the program so button inputs could still be read. Our final code ended up looking like [this](../files/DDF_Arduino101_AlarmClock_modified.ino).
 Now with the new alarm pattern for the buzzer our alarm clock worked as intended as seen in the video: [ex02_custom_alarmBuzzing_snooze.mp4](../videos/ex02_custom_alarmBuzzing_snooze.mp4)
