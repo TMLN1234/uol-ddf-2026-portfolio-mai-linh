@@ -1,6 +1,6 @@
 # Exercise 3 - Sensors and actuators
 
-The third exercise took place on the 21th May 2026 and was about integrating sensors and actors into an electrical circuit to deflate / inflate an inflatable pillow (see image below). For this exercise I was working together with Dena Boveirimonji. The images for this exercise can be found in the folder [ex03_images](../images/ex03_images), while the videos are uploaded in the [video](../videos) folder. The code for our system can be found here.
+The third exercise took place on the 21th May 2026 and was about integrating sensors and actors into an electrical circuit to deflate / inflate an inflatable pillow (see image below). For this exercise I was working together with Dena Boveirimonji. The images for this exercise can be found in the folder [ex03_images](../images/ex03_images), while the videos are uploaded in the [video](../videos) folder. The code for our system can be found [here](../files/Pumping_version1.ino).
 
 The base of the system consists of:
 - Air valve
@@ -8,7 +8,8 @@ The base of the system consists of:
 - Inflatable pillow
 	
 <img src="../images/ex03_images/01_finished_circuit.jpeg" alt="Finished system with air valve, air pumps, inflateable pillow and sensors" width="500"/>
-(video final)
+
+[Video of system in action](../videos/ex03_joystick_deflation_flexSensor_inflation.mp4)
 
 ## Part A - Pneumatic and electrical circuit
 
@@ -33,9 +34,7 @@ In this part we tried 3 different sensors as input methods to control the inflat
 
 <img src="../images/ex03_images/04_pir_sensor.jpg" alt="PIR motion sensor" height="150"/>
 
-Our first sensor was a PIR motion sensor (see image above). At the beginning we misunderstood its functionality. We thought that it would react to the presence of a person. Which means a person has to be in front of the sensor for some time for it to activate. So we wanted the system to start inflating the air bag if a hand is held above the sensor and stop inflating if there is none. We added some debugging-messages that print the state of the pumping into our console to understand the code logic better but the results were confusing. Even if we did not place our hand before the sensor, it would start pumping seemingly randomly (as seen in this video).
-
-(vid1)
+Our first sensor was a PIR motion sensor (see image above). At the beginning we misunderstood its functionality. We thought that it would react to the presence of a person. Which means a person has to be in front of the sensor for some time for it to activate. So we wanted the system to start inflating the air bag if a hand is held above the sensor and stop inflating if there is none. We added some debugging-messages that print the state of the pumping into our console to understand the code logic better but the results were confusing. Even if we did not place our hand before the sensor, it would start pumping seemingly randomly (as seen in this [video](../videos/ex03_confusing_behavior_PIR_sensor.mp4)).
 
 In order to understand the behaviour of the PIR sensor better we looked up Youtube tutorials of projects using a PIR sensor and how it behaves in action. Then we understood that the PIR sensor was just very sensitive to any kind of movement. We came to the conclusion that our minor arm movements and shadows were already enough to trigger the movement detection on the PIR sensor and activate the pumping.
 Our solution to this behaviour was to add a cooldown for the activation and a delay of 3 seconds so the pumping lasts 3 seconds. That way, the pumping could only be activated every 7 seconds and does not trigger repeatedly on any tiny movement within that time.
@@ -54,7 +53,7 @@ Next we wanted to use the values as conditions to trigger the inflation. We noti
 
 <img src="../images/ex03_images/06_code_inflation_flex_sensor.png" alt="Code for flex sensor" height="250"/>
 
-Overall the system worked, as demonstrated in this video (video2)
+Overall the system worked, as demonstrated in this [video](../videos/ex03_flexSensor_inflation_button_deflation.mp4)
 
 ### Joystick
 
@@ -73,7 +72,7 @@ So in the end our full system looked like this:
 
 <img src="../images/ex03_images/01_finished_circuit.jpeg" alt="Finished system with air valve, air pumps, inflateable pillow and sensors" width="500"/>
 
-The deflation and inflation can also be seen in this video (video3)
+The deflation and inflation can also be seen in this [video](../videos/ex03_joystick_deflation_flexSensor_inflation.mp4)
 
 
 # Some takeaways from this exercise
