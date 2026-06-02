@@ -1,6 +1,6 @@
 # Exercise 3 - Sensors and actuators
 
-The third exercise took place on the 21th May 2026 and was about integrating sensors and actors into an electrical circuit to deflate / inflate an inflatable pillow (see image below). For this exercise I was working together with Dena Boveirimonji. The images for this exercise can be found in the folder ex03_images, while the videos are uploaded in the video folder.
+The third exercise took place on the 21th May 2026 and was about integrating sensors and actors into an electrical circuit to deflate / inflate an inflatable pillow (see image below). For this exercise I was working together with Dena Boveirimonji. The images for this exercise can be found in the folder ex03_images, while the videos are uploaded in the video folder. The code for our system can be found here.
 
 The base of the system consists of:
 - Air valve
