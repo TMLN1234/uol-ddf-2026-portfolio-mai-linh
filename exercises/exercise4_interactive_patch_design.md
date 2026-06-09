@@ -23,7 +23,7 @@ During the process, there were some challenges. Some conductive threads were dif
 
 <img src="../images/ex04_images/04_nylon_thread.jpg" alt="Nylon threads unraveling" width="500"/>
 
-As a result, I switched to a metal-filled craft thread, which was softer and much easier to sew with. Sewing itself was also a difficult task, but it was mainly a personal skill issue. Sometimes the yarn would get tangled, which was frustrating to deal with as an amateur seamstress (see image below).
+As a result, I switched to a metal-filled craft thread, which was softer and much easier to sew with. Sewing itself was also a difficult task, but it was mainly a personal skill issue. Sometimes the yarn would get tangled, which was frustrating to deal with as an amateur seamstress (see image below). In order to untangle the yarn I would undo my stitch or try to use the tip of the needle to open up the node.
 
 <img src="../images/ex04_images/06_tangled_yarn.jpg" alt="Tangled yarn" height="200"/>
 
