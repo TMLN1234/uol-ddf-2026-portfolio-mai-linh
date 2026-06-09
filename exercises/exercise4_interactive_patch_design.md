@@ -27,7 +27,7 @@ As a result, I switched to a metal-filled craft thread, which was softer and muc
 
 <img src="../images/ex04_images/06_tangled_yarn.jpg" alt="Tangled yarn" height="200"/>
 
-The purple LEDs I connected to the battery first lit up at the beginning, but a few days later, when I added the other LEDs, the purple LEDs did not light up anymore. I used a multimeter to check the continuity, which was fine (see this [video](../videos/ex04_checking_continuity.mov)). Checking the voltage at the LED with a multimeter showed 2.5 volts. Juliusz suggested using a fully charged battery instead. After replacing the battery with a fully charged one, the purple LEDs lit up again. Checking the Voltage now showed 2.7 volts. The purple LED did not light up at 2.5 volts but it did at 2.7 volts.
+The purple LEDs I connected to the battery first lit up at the beginning, but a few days later, when I added the other LEDs, the purple LEDs did not light up anymore. I used a multimeter to check the continuity, which was fine (see this [video](../videos/ex04_checking_continuity.mov)). Checking the voltage at the LED with a multimeter showed 2.5 volts. Juliusz suggested using a fully charged battery instead. After replacing the battery with a fully charged one, the purple LEDs lit up again. Checking the Voltage now showed 2.7 volts. The purple LED did not light up at 2.5 volts but it did at 2.7 volts (see images below).
 
 <img src="../images/ex04_images/07_lower_voltage.jpg" alt="LED at 2.5 volts not lighting up" width="500"/> <img src="../images/ex04_images/08_higher_voltage.jpg" alt="LED at 2.7 volts lights up" width="500"/>
 
