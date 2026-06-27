@@ -1,6 +1,6 @@
 # Exercise 5 - Designing for CNC milling
 
-The fifth exercise took place on the 3rd June 2026 and was about CNC milling. The images for this exercise are in the folder [ex05_images](../images/ex05_images). The task was to create a design for a candle holder in Inkscape which will be milled out of a wooden block.
+The fifth exercise took place on the 3rd June 2026 and was about CNC milling. The images for this exercise are in the folder [ex05_images](../images/ex05_images). The svg-file of the finished design can be found in the [file](../files/MaiLinh_Nguyen_darkwood.svg)-folder. The task was to create a design for a candle holder in Inkscape which will be milled out of a wooden block.
 
 <img src="../images/ex05_images/01_finished_design.png" alt="Finished design" width="500"/> <img src="../images/ex05_images/05_finished_piece.jpg" alt="Finished and milled design" width="500"/>
 
