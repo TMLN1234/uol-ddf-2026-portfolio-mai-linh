@@ -2,7 +2,7 @@
 
 Mai Linh's portfolio for the lecture "Digital Design and Fabrication"
 
-The portfolio entries for submission are in the [exercise](/exercises) folder as a markdown file. Each exercise submission has each own markdown-file:
+The portfolio entries for submission are in the [exercise](/exercises) folder as a markdown file. Each exercise submission has its own markdown-file:
 - [exercise1_electrical_circuits.md](exercises/exercise1_electrical_circuits.md)
 - [exercise2_arduino_alarm_clock.md](exercises/exercise2_arduino_alarm_clock.md)
 - [exercise3_sensors_and_actuators.md](exercises/exercise3_sensors_and_actuators.md)
