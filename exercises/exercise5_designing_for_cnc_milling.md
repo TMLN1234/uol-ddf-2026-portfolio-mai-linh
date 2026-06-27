@@ -2,7 +2,7 @@
 
 The fifth exercise took place on the 3rd June 2026 and was about CNC milling. The images for this exercise are in the folder [ex05_images](../images/ex05_images). The task was to create a design for a candle holder in Inkscape which will be milled out of a wooden block.
 
-<img src="../images/ex05_images/01_finished_design.png" alt="Finished design" width="500"/>
+<img src="../images/ex05_images/01_finished_design.png" alt="Finished design" width="500"/> <img src="../images/ex05_images/05_finished_piece.jpg" alt="Finished and milled design" width="500"/>
 
 I decided I wanted the shape to be the Animal Crossing: New Leaf logo because it is one of my favourite games and I think the shape is unique (see image below). My strategy was to get an image from the internet and trace over the lines.
 
@@ -19,3 +19,15 @@ There is a "hole" in the leaf at the bottom. My first attempt at drawing that pa
 Lastly, the candle hole was added and placed farther toward the middle of the leaf so the edge is not too thin. Overall my layers consists of the general leaf shape, the candle hole, the hole of the leaf at the bottom and the reference layer at the bottom (see image below).
 
 <img src="../images/ex05_images/04_layers.png" alt="Layers of the file" width="500"/>
+
+## Milling
+
+Before the milling I chose a darkwood type for my piece because I thought the example pieces presented in the class made out of darkwood looked precious. In the end my milled design looked like this:
+
+<img src="../images/ex05_images/05_finished_piece.jpg" alt="Finished and milled design" width="500"/>
+
+I was warned that some parts of my design was narrow and might be fragile once it was milled. Some minor force or dropping the object might break some parts off. Sure enough, the parts did end up very pointy and thin (see image below).
+
+<img src="../images/ex05_images/06_sharp_edges.jpg" alt="Fragile edge" width="200"/>
+
+So in the future when designing these parts I might add more width and round them up so these parts become more stable to avoid it breaking off.
