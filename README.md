@@ -10,11 +10,11 @@ The portfolio entries for submission are in the [exercise](/exercises) folder as
 - [exercise5_designing_for_cnc_milling.md](exercises/exercise5_designing_for_cnc_milling.md)
 - [exercise6_laser-cut_business_card.md](exercises/exercise6_laser-cut_business_card.md)
 - [exercise7_on-shape_tutorials_on_CAD_design.md](exercises/exercise7_on-shape_tutorials_on_CAD_design.md)
-- exercise8_3D_scanning
+- [exercise8_3D_printing.md](exercises/exercise8_3D_printing.md)
 
 The images and videos used in the submission can be found in the [images](/images) and [videos](/videos) folders respectively. Videos can not be viewed directly and need to be downloaded first.
 
-Last update: 22.06.2026
+Last update: 27.06.2026
 
 ## Contact information
 
