@@ -6,9 +6,7 @@ The last exercise took place on the 25th June 2026 and was about 3D printing. Th
 
 ## Preparation for creating a model
 
-To start, I drew inspiration from examples listed on a website. There, I came across this [paper towel holder](https://www.printables.com/model/527747-geometrical-paper-towel-holder-v2-updated)
-
-which I liked a lot. The paper towel holder we have at home is rather old and already falling apart, so I thought a 3D-printed one could be a nice addition to our home. And if I can customize its design, it’s even better! I wanted to incorporate some patterns from the hat of a video game character I like into the holder's design (see image below). The patterns are mostly symmetrical six-petalled flowers. At most, I wanted to include only the middle part because the full design would be too time-consuming and difficult to recreate, given my current modeling skills.
+To start, I drew inspiration from examples listed on a website. There, I came across this [paper towel holder](https://www.printables.com/model/527747-geometrical-paper-towel-holder-v2-updated) which I liked a lot. The paper towel holder we have at home is rather old and already falling apart, so I thought a 3D-printed one could be a nice addition to our home. And if I can customize its design, it’s even better! I wanted to incorporate some patterns from the hat of a video game character I like into the holder's design (see image below). The patterns are mostly symmetrical six-petalled flowers. At most, I wanted to include only the middle part because the full design would be too time-consuming and difficult to recreate, given my current modeling skills.
 
 <img src="../images/ex08_images/02_reference_image_pattern.png" alt="Flower pattern reference" width="250"/>
 
