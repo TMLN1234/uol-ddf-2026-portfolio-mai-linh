@@ -26,9 +26,10 @@ The outer ring of the bottom part and the pole in the middle were created using 
 
 <img src="../images/ex08_images/04_inner_flower_sketch.png" alt="Sketch of inner flower" width="250"/>
 
-The most difficult part was the pattern at the bottom. At first, I tried using the spline tool to recreate one petal that I could mirror along my construction lines. However, during sketching, no matter how many constraints I added, the sketch still remained undefined (see image below). I eventually gave up on that approach and decided to simplify the pattern by sketching the petals using overlapping circles. I originally thought of sketching the paths and then using the sweep tool to create the flower pattern's lines, but after testing some settings, it didn’t work. So I simply created some offsets of the circles and used the extrude tool instead.
+The most difficult part was the pattern at the bottom. At first, I tried using the spline tool to recreate one petal that I could mirror along my construction lines. However, during sketching, no matter how many constraints I added, the sketch still remained undefined (see image below). I eventually gave up on that approach and decided to simplify the pattern by sketching the petals using overlapping circles. I originally thought of sketching the paths and then using the sweep tool to create the flower pattern's lines, but after testing some settings, it didn’t work. So I simply created some offsets of the circles and used the extrude tool instead (see image below).
 
-<img src="../images/ex08_images/05_undefined_sketch.png" alt="Undefined sketch with spline" width="300"/>
+<img src="../images/ex08_images/05_undefined_sketch.png" alt="Undefined sketch with spline" height="200"/> vs. 
+<img src="../images/ex08_images/13_simplified_bottom_pattern.png" alt="Simplified bottom flower pattern" height="200"/> 
 
 As for the construction on the holder's side, I tried to create some patterns on the right-side plane and somehow combine them with an extruded part from the bottom, but that didn’t work. So I changed my strategy by using a sketch of the bottom part, extruding parts in different sizes, applying fillets to control the arc shapes, and then subtracting them with the boolean tool to create the arcs (see images below).
 
