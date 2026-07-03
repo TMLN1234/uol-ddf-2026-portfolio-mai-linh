@@ -1,8 +1,8 @@
 # Exercise 8 - 3D printing
 
-The last exercise took place on the 25th June 2026 and was about 3D printing. The images for this exercise are in the [ex08_images](../images/ex08_images) folder, and the [3D model](../files/paper_towel_holder_Thi_Mai_Linh_Nguyen.step) and [slicing information](../files/paper_towel_holder_Thi_Mai_Linh_Nguyen.3mf) are in the [files](../files) folder. The goal of this exercise was to create a practical 3D model in Onshape and print it. On the 02nd July we could view our printed results.
+The last exercise took place on the 25th June 2026 and was about 3D printing. The images for this exercise are in the [ex08_images](../images/ex08_images) folder, and the [3D model](../files/paper_towel_holder_Thi_Mai_Linh_Nguyen.step) and [slicing information](../files/paper_towel_holder_Thi_Mai_Linh_Nguyen.3mf) are in the [files](../files) folder. The goal of this exercise was to create a practical 3D model in Onshape and print it.
 
-<img src="../images/ex08_images/01_finished_3D_model.png" alt="Finished 3D model" width="250"/>
+<img src="../images/ex08_images/01_finished_3D_model.png" alt="Finished 3D model" height="225"/> <img src="../images/ex08_images/16_printedholder_in_use.jpg" alt="Paper towel holder in use" height="225"/>
 
 ## Preparation for creating a model
 
@@ -47,7 +47,7 @@ As seen in the image below, I tried different orientations of my model. However,
 
 <img src="../images/ex08_images/09_different_orientation.png" alt="Model in different orientation" width="500"/>
 
-I was worried about the side arcs falling down, so I applied supports. At first, I chose the tree supports which looked alright fo rthe arcs, but in the preview, the tree looked weird within the pole. Because the top of the pole is closed horizontally, a support structure forms below it within the hollow pole, but the tree was not printed from the base. Instead, it would appear in midair for some reason (see images below). I didn’t want to risk breaking the printed pole, so I tried the normal support construction instead. The tree support would have used the least amount of filament (4.49g) and only added roughly 2 minutes to the total printing time.
+I was worried about the side arcs falling down, so I applied supports. At first, I chose the tree supports which looked alright for the arcs, but in the preview, the tree looked weird within the pole. Because the top of the pole is closed horizontally, a support structure forms below it within the hollow pole, but the tree was not printed from the base. Instead, it would appear in midair for some reason (see images below). I didn’t want to risk breaking the printed pole, so I tried the normal support construction instead. The tree support would have used the least amount of filament (4.49g) and only added roughly 2 minutes to the total printing time.
 
 <img src="../images/ex08_images/10_treeSupport_notThere.png" alt="Tree support not within pole" height="200"/><img src="../images/ex08_images/11_treeSupport_in_midair.png" alt="Tree support starting from midair" height="200"/>
 
@@ -59,5 +59,11 @@ I was contemplating activating the brims for bed adhesion because the pole is ra
 
 ## 3D printed result
 
-(will be added after the 02nd July)
+On 2nd July, we got our printed results. I’m glad my model didn't turn into a spaghetti mess! So the surface at the bottom was enough for it not to tip over. The supports for the arcs (see images below) need to be removed, and while I was doing that, I wondered whether I actually needed them. It worked in the end, and I’m happy with the result, so maybe the supports did help?
+
+<img src="../images/ex08_images/14_printedResult.jpg" alt="3D printed result with supports" height="200"/> <img src="../images/ex08_images/15_closeUp_supports.jpg" alt="Close up of supports" height="200"/>
+
+After I removed the supports with a plier, the holder was immediately put to use at home. While I was inserting the kitchen paper roll, I noticed that the middle pole was a bit too short (see images below). 3 to 4 additional centimeters would have been perfect for the pole to stick out of the hole so the holder could be grabbed and moved more easily, but overall I like the result!
+
+<img src="../images/ex08_images/16_printedholder_in_use.jpg" alt="Paper towel holder in use" height="200"/> <img src="../images/ex08_images/17_shortPole.jpg" alt="Close up of short pole" height="200"/>
 
